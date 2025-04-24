@@ -16,7 +16,7 @@
           integrity="sha512-GYfUn4XbOe+0Z3fsLs+hsTtTYixmH3YyI+Gv+qYr5Qhfy6YPsioyj1Isnnpbbig+0QqQolpSkU70PcgtXf+qdw=="
           crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/mansetdus_Logo.png">
+    <link rel="icon" type="image/png" href="images/mlogo.png">
 </head>
 <body>
 

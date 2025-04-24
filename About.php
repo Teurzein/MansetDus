@@ -4,15 +4,13 @@
   <meta charset="UTF-8">
   <title>ManşetDuş – Hakkımızda</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <link rel="icon" type="image/png" href="images/mlogo.png">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Site CSS -->
-  <link href="css/site.css" rel="stylesheet"> <!-- PHP uyumlu hale getirildi -->
+  <link href="css/site.css" rel="stylesheet">
   <!-- AOS CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-        integrity="sha512-GYfUn4XbOe+0Z3fsLs+hsTtTYixmH3YyI+Gv+qYr5Qhfy6YPsioyj1Isnnpbbig+0QqQolpSkU70PcgtXf+qdw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 
   <style>
     .about-section {
@@ -111,7 +109,7 @@
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg" data-aos="fade-down" data-aos-duration="600">
+<nav class="navbar navbar-expand-lg" data-aos="fade-down" data-aos-duration="800">
   <div class="container">
     <a class="navbar-brand" href="index.php"><img src="images/mansetdus_Logo.png" alt="Logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
@@ -121,7 +119,7 @@
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.php">Anasayfa</a></li>
         <li class="nav-item"><a class="nav-link" href="product.php">Ürünler</a></li>
-        <li class="nav-item"><a class="nav-link active" href="about.php" >Hakkımızda</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.php">Hakkımızda</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.php">İletişim</a></li>
         <li class="nav-item"><a class="nav-link" href="references.php">Referanslar</a></li>
         <li class="nav-item"><a class="nav-link" href="faq.php">SSS</a></li>
@@ -133,25 +131,26 @@
 <!-- HAKKIMIZDA BÖLÜMÜ -->
 <section id="about" class="about-section" data-aos="fade-up" data-aos-duration="800">
   <div class="about-content">
-    <h2>Hakkımızda</h2>
-    <p class="main-description">
-      Manşet Duş, sadece bir duş markası değil; aynı zamanda yaşam alanlarına estetik ve fonksiyon kazandıran bir tasarım anlayışıdır. Kuruluşumuzdan bu yana, “estetik ve fonksiyon” dengesini Türkiye’nin dört bir yanındaki projelere taşıma vizyonuyla hareket ediyoruz. Modern çizgiler, akıllı çözümler ve yüksek kaliteli üretim anlayışı ile sektörümüzde fark yaratmayı hedefliyoruz.
+    <h2 data-aos="zoom-in" data-aos-delay="100">Hakkımızda</h2>
+    <p class="main-description" data-aos="fade-right" data-aos-delay="200">
+    Manşet Duş, sadece bir duş markası değil; aynı zamanda yaşam alanlarına estetik ve fonksiyon kazandıran bir tasarım anlayışıdır. Kuruluşumuzdan bu yana, “estetik ve fonksiyon” dengesini Türkiye’nin dört bir yanındaki projelere taşıma vizyonuyla hareket ediyoruz. Modern çizgiler, akıllı çözümler ve yüksek kaliteli üretim anlayışı ile sektörümüzde fark yaratmayı hedefliyoruz.
     </p>
-    <p class="main-description">
-      Mimari estetikle uyumlu, kullanıcı dostu ve dayanıklı ürünler üretmek temel ilkemizdir. Kullandığımız malzemeler, hem uzun ömürlü kullanım hem de zarif görünüm açısından titizlikle seçilmektedir. Ürün yelpazemizde yer alan her detay; fonksiyonelliği, tasarımı ve konforu aynı potada birleştirir.
+    <p class="main-description" data-aos="fade-left" data-aos-delay="300">
+    Mimari estetikle uyumlu, kullanıcı dostu ve dayanıklı ürünler üretmek temel ilkemizdir. Kullandığımız malzemeler, hem uzun ömürlü kullanım hem de zarif görünüm açısından titizlikle seçilmektedir. Ürün yelpazemizde yer alan her detay; fonksiyonelliği, tasarımı ve konforu aynı potada birleştirir.
     </p>
-    <p class="main-description">
-      Yenilikçi tasarım felsefemizle, değişen yaşam biçimlerine uyum sağlayan çözümler geliştiriyor; bireysel yaşam alanlarından toplu konut projelerine kadar birçok farklı ölçek ve ihtiyaca hitap ediyoruz. Müşterilerimizin ihtiyaçlarını en doğru şekilde analiz ederek, çözüm odaklı hizmet anlayışımızı projelere yansıtıyoruz.
+    <p class="main-description" data-aos="fade-right" data-aos-delay="400">
+    Yenilikçi tasarım felsefemizle, değişen yaşam biçimlerine uyum sağlayan çözümler geliştiriyor; bireysel yaşam alanlarından toplu konut projelerine kadar birçok farklı ölçek ve ihtiyaca hitap ediyoruz. Müşterilerimizin ihtiyaçlarını en doğru şekilde analiz ederek, çözüm odaklı hizmet anlayışımızı projelere yansıtıyoruz.
+
     </p>
-    <p class="main-description">
-      Sadece satış anında değil, satış sonrasında da eksiksiz servis anlayışımızla daima müşterilerimizin yanındayız. Montajdan teknik desteğe, yedek parça hizmetinden garanti süreçlerine kadar her aşamada hızlı ve güvenilir çözümler sunuyoruz.
+    <p class="main-description" data-aos="fade-left" data-aos-delay="500">
+    Sadece satış anında değil, satış sonrasında da eksiksiz servis anlayışımızla daima müşterilerimizin yanındayız. Montajdan teknik desteğe, yedek parça hizmetinden garanti süreçlerine kadar her aşamada hızlı ve güvenilir çözümler sunuyoruz.
     </p>
-    <p class="main-description">
-      Manşet Duş olarak, her geçen gün yenileniyor, büyüyor ve daha iyisini hedefliyoruz. Müşteri memnuniyetini merkezimize alarak çıktığımız bu yolda, kaliteyi bir standart değil, vazgeçilmez bir değer olarak görüyoruz.
+    <p class="main-description" data-aos="fade-up" data-aos-delay="600">
+    Manşet Duş olarak, her geçen gün yenileniyor, büyüyor ve daha iyisini hedefliyoruz. Müşteri memnuniyetini merkezimize alarak çıktığımız bu yolda, kaliteyi bir standart değil, vazgeçilmez bir değer olarak görüyoruz.
     </p>
-    <img src="images/mansetdus_Logo.png" alt="Manşet Duş Logo" class="about-logo">
+    <img src="images/mansetdus_Logo.png" alt="Manşet Duş Logo" class="about-logo" data-aos="zoom-in" data-aos-delay="700">
     <div class="text-center">
-      <a href="contact.php" class="about-contact-btn">Bizimle İletişime Geç</a>
+      <a href="contact.php" class="about-contact-btn" data-aos="zoom-in-up" data-aos-delay="800">Bizimle İletişime Geç</a>
     </div>
   </div>
 </section>
@@ -190,14 +189,12 @@
 
 <!-- JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-        integrity="sha512-5cjvN60m5dJ4g0N0lfN+7/HQC6T6ezGq0ui3Xz5G7Zp0qmEIS2+lvF86BdvjFHqyr0KDjkUnl9FQ9W5FgZw5UQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 <script>
   AOS.init({
     offset: 120,
     duration: 600,
-    easing: 'ease-in',
+    easing: 'ease-in-out',
     once: true
   });
 </script>
