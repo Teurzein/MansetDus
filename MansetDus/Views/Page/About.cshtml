@@ -1,0 +1,180 @@
+@{ Layout = null; }
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>ManşetDuş – Hakkımızda</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Site CSS -->
+  <link href="~/css/site.css" rel="stylesheet" />
+  <!-- AOS CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-GYfUn4XbOe+0Z3fsLs+hsTtTYixmH3YyI+Gv+qYr5Qhfy6YPsioyj1Isnnpbbig+0QqQolpSkU70PcgtXf+qdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    /* Hakkımızda Bölümü */
+    .about-section {
+      position: relative;
+      background: url('/images/3.jpg') center/cover no-repeat;
+      color: #fff;
+      min-height: calc(100vh - 200px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .about-section .overlay {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0,0,0,0.4);
+    }
+    .about-section .container {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      width: 100%;
+      max-width: 900px;
+    }
+    .about-section h2 {
+      font-size: 3.5rem; /* Daha büyük başlık */
+      font-weight: 600;
+      margin: 0;
+    }
+    .about-section p {
+      margin: 0 auto;
+      font-size: 1.3rem; /* Daha belirgin metin */
+      line-height: 1.6;
+      opacity: 0.9;
+    }
+    .about-row {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .about-subsection {
+      flex: 1;
+    }
+    .about-subsection h3 {
+      font-size: 2rem; /* Daha büyük alt başlık */
+      font-weight: 500;
+      margin-bottom: .5rem;
+    }
+    .about-subsection p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    .about-logo {
+      display: block;
+      width: 120px;
+      margin: 0 auto;
+    }
+    /* İletişim Butonu */
+    .about-contact-btn {
+      display: inline-block;
+      background-color: #ffffff;
+      color: #191620;
+      padding: 0.75rem 1.75rem;
+      border-radius: 4px;
+      font-size: 1rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .about-contact-btn:hover {
+      background-color: rgba(255,255,255,0.8);
+      color: #191620;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg" data-aos="fade-down" data-aos-duration="600">
+    <div class="container">
+      <a class="navbar-brand" href="/"><img src="/images/mansetdus_Logo.png" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="/">Anasayfa</a></li>
+          <li class="nav-item"><a class="nav-link" href="/Product">Ürünler</a></li>
+          <li class="nav-item"><a class="nav-link active" href="/Page/About">Hakkımızda</a></li>
+          <li class="nav-item"><a class="nav-link" href="/Page/Contact">İletişim</a></li>
+          <li class="nav-item"><a class="nav-link" href="/Page/References">Referanslar</a></li>
+          <li class="nav-item"><a class="nav-link" href="/Page/Faq">SSS</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HAKKIMIZDA BÖLÜMÜ -->
+  <section id="about" class="about-section" data-aos="fade-up" data-aos-duration="800">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2>Hakkımızda</h2>
+      <p>Manşet Duş olarak “estetik &amp; fonksiyon” dengesini, Türkiye’nin dört bir yanındaki projelere taşıyoruz. Yenilikçi tasarımımız, dayanıklı malzemelerimiz ve eksiksiz servis anlayışımızla fark yaratıyoruz.</p>
+      <div class="about-row">
+        <div class="about-subsection text-start">
+          <h3>Misyon</h3>
+          <p>Müşteri memnuniyetini esas alarak, estetik ve fonksiyonu buluşturan duş ve küvet çözümleri sunmak.</p>
+        </div>
+        <div class="about-subsection text-end">
+          <h3>Vizyon</h3>
+          <p>Türkiye’de sektöründe kalite ve tasarımda öncü bir marka olmak.</p>
+        </div>
+      </div>
+      <img src="/images/mansetdus_Logo.png" alt="Manşet Duş Logo" class="about-logo">
+      <a href="/Page/Contact" class="about-contact-btn">Bizimle İletişime Geç</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer data-aos="fade-up" data-aos-duration="800">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-md-6 footer-logo">
+          <img src="/images/mansetdus_Logo.png" alt="Footer Logo">
+          <p class="mt-3">ManşetDuş - Estetik ve Fonksiyonel Çözümler</p>
+        </div>
+        <div class="col-md-6">
+          <h5 class="mb-3">İletişim</h5>
+          <p><strong>Adres:</strong> Pınar Mahallesi 1502. Sokak No: 7/A İstanbul/Esenyurt</p>
+          <p><strong>Telefon:</strong> +90 542 740 66 42</p>
+          <p><strong>E-posta:</strong> zabit@mansetdus.com</p>
+        </div>
+      </div>
+      <hr class="border-secondary">
+      <div class="row">
+        <div class="col text-center">
+          <div class="d-flex flex-wrap justify-content-center gap-3 mb-3">
+            <a href="/">Anasayfa</a>
+            <a href="/Product">Ürünler</a>
+            <a href="/Page/About">Hakkımızda</a>
+            <a href="/Page/Contact">İletişim</a>
+            <a href="/Page/References">Referanslar</a>
+            <a href="/Page/Faq">SSS</a>
+          </div>
+          <p class="mt-2">&copy; 2025 ManşetDuş Duş. Tüm hakları saklıdır.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS & AOS Init -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+          integrity="sha512-5cjvN60m5dJ4g0N0lfN+7/HQC6T6ezGq0ui3Xz5G7Zp0qmEIS2+lvF86BdvjFHqyr0KDjkUnl9FQ9W5FgZw5UQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script> AOS.init({ offset:120, duration:600, easing:'ease-in', once:true }); </script>
+</body>
+</html>
