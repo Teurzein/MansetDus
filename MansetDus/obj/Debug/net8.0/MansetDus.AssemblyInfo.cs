@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MansetDus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6717c54d9069954c416ef43fdfd93e89808a4280")]
 [assembly: System.Reflection.AssemblyProductAttribute("MansetDus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MansetDus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
