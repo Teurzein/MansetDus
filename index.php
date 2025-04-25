@@ -167,7 +167,7 @@
                 <h5 class="mb-3">İletişim</h5>
                 <p><strong>Adres:</strong> Pınar Mahallesi 1502. Sokak No: 7/A İstanbul/Esenyurt</p>
                 <p><strong>Telefon:</strong> +90 542 740 66 42</p>
-                <p><strong>E-posta:</strong> zabit.demirkazik@mansetdus.com<</p>
+                <p><strong>E-posta:</strong> zabit.demirkazik@mansetdus.com</p>
             </div>
         </div>
         <hr class="border-secondary">
