@@ -83,10 +83,11 @@
       border: 3px solid #fff;
     }
 
+    .navbar .nav-link:hover,
+    .navbar .nav-link.active {
+      color: #25D366 !important;
+    }
 
-
-
-    
   </style>
 </head>
 <body>
@@ -103,7 +104,7 @@
         <li class="nav-item"><a class="nav-link" href="index.php">Anasayfa</a></li>
         <li class="nav-item"><a class="nav-link" href="product.php">Ürünler</a></li>
         <li class="nav-item"><a class="nav-link" href="about.php">Hakkımızda</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.php" style="color: #1ebc57">İletişim</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.php">İletişim</a></li>
         <li class="nav-item"><a class="nav-link" href="references.php">Referanslar</a></li>
         <li class="nav-item"><a class="nav-link" href="faq.php">SSS</a></li>
       </ul>

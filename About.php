@@ -104,6 +104,12 @@
       background-color: rgba(255,255,255,0.9);
       transform: translateY(-2px);
     }
+
+    .navbar .nav-link:hover,
+    .navbar .nav-link.active {
+      color: #25D366 !important;
+    }
+
   </style>
 </head>
 <body>
