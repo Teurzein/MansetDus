@@ -112,15 +112,32 @@
     </div>
 
     <div class="row my-5">
-        <div class="col-12" data-aos="fade-up" data-aos-duration="400">
-            <a href="contact.php" class="support-banner-link">
-                <div class="support-banner">
-                    <h4>Profesyonel Destek Almak için<br>Bizimle İletişime Geçin.</h4>
-                </div>
-            </a>
-        </div>
+    <div class="col-12" data-aos="fade-up" data-aos-duration="400">
+        <a href="contact.php" class="support-banner-link">
+            <div class="support-banner" style="background-image: url('images/bannerkuvet.webp');">
+                <h4>Profesyonel Destek Almak için<br>Bizimle İletişime Geçin.</h4>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-12 mt-4" data-aos="fade-up" data-aos-duration="400" data-aos-delay="100">
+        <a href="about.php" class="support-banner-link">
+            <div class="support-banner" style="background-image: url('images/hakkimizda-banner.jpg');">
+                <h4>Hakkımızda Bilgi Alın</h4>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-12 mt-4" data-aos="fade-up" data-aos-duration="400" data-aos-delay="200">
+        <a href="faq.php" class="support-banner-link">
+            <div class="support-banner" style="background-image: url('images/sss-banner.webp');">
+                <h4>Sıkça Sorulan Sorular</h4>
+            </div>
+        </a>
     </div>
 </div>
+
+
 
 <!-- DESTEK BANNER CSS -->
 <style>
@@ -153,6 +170,9 @@
     line-height: 1.2;
     text-align: right;
 }
+
+
+
 </style>
 
 <!-- FOOTER -->
@@ -167,7 +187,7 @@
                 <h5 class="mb-3">İletişim</h5>
                 <p><strong>Adres:</strong> Pınar Mahallesi 1502. Sokak No: 7/A İstanbul/Esenyurt</p>
                 <p><strong>Telefon:</strong> +90 542 740 66 42</p>
-                <p><strong>E-posta:</strong> zabit.demirkazik@mansetdus.com<</p>
+                <p><strong>E-posta:</strong> zabit.demirkazik@mansetdus.com</p>
             </div>
         </div>
         <hr class="border-secondary">
